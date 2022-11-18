@@ -11,12 +11,16 @@
 #   5. include required SPL modules -> SPL_SOURCE
 #
 #######
+MAKEFLAGS = -j1
 
 # STM8 device (default is STM8 discovery board)
 DEVICE=STM8S103
 DEVICE_FLASH=stm8s103f3
+DEVICE=STM8S105
+DEVICE_FLASH=stm8s105c6
 
 STLINK=stlinkv2
+STLINK=stlink
 
 F_CPU=16000000
 
